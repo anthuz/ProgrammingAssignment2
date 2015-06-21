@@ -1,8 +1,12 @@
-## makeCacheMatrixc reates a special "matrix" object that can cache its inverse.
-## cacheSolve return the inverse of the matrix if it has already been calculated.
-## Otherwise it computes the inverse, cache it and returns it.
+## Assignment: "Caching the Inverse of a Matrix"
+## Course: "R Programming" by Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
+## Coursera
 
-# makeCacheMatrix, special "matrix" object that can cache its inverse.
+## "Matrix inversion is usually a costly computation and there may be some benefit 
+## to caching the inverse of a matrix rather than compute it repeatedly".
+## Following two functions is used to cache the inverse of a matrix.
+
+# makeCacheMatrix creates a special "matrix" object that can cache its inverse.
 # set = set a value of the matrix
 # get = get a value of the matrix
 # setinverse = set the inverse of the matrix
